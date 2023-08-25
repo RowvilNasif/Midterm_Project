@@ -36,7 +36,7 @@ a {
 
 
 .carousel-inner .carousel-item .carousel-caption h3{
-    color: #7c0a02;
+    color: #000;
 }
 
 
@@ -66,9 +66,11 @@ a {
 /* ==========service css========== */
 
 .subscription h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 80px;
     text-align: center;
-    font-weight: 700;
-    margin-top: 20px;
     color: #2d3950;
 }
 .subscription .container .row .details .heading {
@@ -208,8 +210,13 @@ a {
 
 /* =========faq css======= */
 .faq h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 80px;
     text-align: center;
     padding-bottom: 20px;
+    color: #2d3950;
 }
 
 /* ==========contact css========== */
