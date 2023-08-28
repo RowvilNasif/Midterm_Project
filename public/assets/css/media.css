@@ -38,7 +38,7 @@
 
 @media(max-width: 767px) {
     .portfolio .image {
-        max-width: 468px;
+        max-width: 497px;
     }
     .portfolio .image button.search {
         left: 38%;
@@ -51,11 +51,5 @@
     }
     .footer .social_links {
         text-align: center;
-    }
-}
-
-@media(max-width: 575px) {
-    .banner .container .row .col .content .heading {
-        font-size: 65px;
     }
 }

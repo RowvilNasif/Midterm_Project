@@ -28,7 +28,6 @@ a {
     font-size: 20px;
     color: #222;
     text-transform: capitalize;
-    line-height: 70px;
 }
 
 
@@ -36,7 +35,7 @@ a {
 
 
 .carousel-inner .carousel-item .carousel-caption h3{
-    color: #000;
+    color: #ff0000;
 }
 
 
@@ -69,7 +68,7 @@ a {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 30px;
-    margin-top: 80px;
+    margin-top: 40px;
     text-align: center;
     color: #2d3950;
 }
@@ -105,10 +104,6 @@ a {
     margin-right: 10px;
 }
 
-.subscription .container .row .details .change{
-    padding: 0;
-}
-
 .subscription .container .row .details:hover p .subscribe{
     background-color: #89CFF0;
 }
@@ -120,18 +115,29 @@ a {
  font-weight: 700;
  font-size: 17px;
  color: blue;
- margin-right: 28px;
+ padding: 3px;
+ position: relative;
+ top: -9px;
+ display: inline-block;
+ background-color: antiquewhite;
+ left: 43%;
+ border-radius: 25%;
 }
 
 .subscription .container .row .details:hover .hot{
     opacity: 1;
    }
 
-.subscription .container .row .details:hover{
+.subscription .container .row #details .details:hover{
     background-color: #89CFF0;
     transition: all linear .5s;
     border-radius: 5%;
     cursor: pointer;
+}
+
+.subscription .container .row #details .details{
+    background-color: aquamarine;
+    border-radius: 5%;
 }
 
 /* ==========portfolio css========== */
@@ -207,16 +213,6 @@ a {
     opacity: 1;
 }
 
-/* =========faq css======= */
-.faq h2{
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 30px;
-    margin-top: 80px;
-    text-align: center;
-    padding-bottom: 20px;
-    color: #2d3950;
-}
 
 /* ==========contact css========== */
 
@@ -236,7 +232,7 @@ a {
     left: 0;
     position: absolute;
     content: '';
-    background-color: rgb(42, 53, 74, 0.8);
+    background-color: rgb(255,255,247,.3);
     z-index: 2;
 }
 
@@ -257,7 +253,7 @@ a {
 }
 
 .contact .content .contact_heading p {
-    color: #999;
+    color: #fff;
     margin: 28px 0px 53px;
     font-size: 12px;
 }
@@ -270,6 +266,12 @@ a {
 .contact .content .form-control.message {
     height: 153px;
     margin-bottom: 35px;
+}
+
+.contact .content .btn{
+    border-radius: 20%;
+    border-color: black;
+    color: #000;
 }
 
 
