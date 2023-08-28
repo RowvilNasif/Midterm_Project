@@ -39,6 +39,7 @@
 @media(max-width: 767px) {
     .portfolio .image {
         max-width: 497px;
+        margin-bottom: 10px;
     }
     .portfolio .image button.search {
         left: 38%;
